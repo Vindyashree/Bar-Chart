@@ -12,16 +12,16 @@ class chart1 extends Component{
                 },
                 xaxis:{
                  categories:[
-                     'New York',
-                     'Los Angeles',
-                     'dfghj',
-                     'dfgh',
-                     'qwert',
-                     'zxfghu',
-                     'asdfyu',
-                     'exrctvhj',
-                     'zerty',
-                     'zetyuuv'
+                     'Uttar Pradesh',
+                     'Maharashtra',
+                     'Bihar',
+                     'West Bengal',
+                     'Madhya Pradesh',
+                     'Tamil Nadu',
+                     'Rajasthan',
+                     'Karnataka',
+                     'Gujarat',
+                     'Andhra Pradesh'
 
                     ]
                 },
@@ -37,7 +37,7 @@ class chart1 extends Component{
                     enabled:false
                 },
                 title:{
-                    text:'Largest US cities',
+                    text:'Largest Indian cities',
                     align:'center',
                     margin:20,
                     offsetY:20,
@@ -49,16 +49,16 @@ class chart1 extends Component{
             series:[{
                 name:'Population',
                 data:[
-                    8550450,
-                    3971089,
-                    2717897,
-                    6789561,
-                    2345671,
-                    5678976,
-                    3567823,
-                    2345678,
-                    9824567,
-                    6543278
+                    199812341,
+                    112374333,
+                    104099452,
+                    91276115,
+                    72626809,
+                    72147030,
+                    68548437,
+                    61095297,
+                    60439692,
+                    49577103
                 ]
             }
 
